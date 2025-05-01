@@ -23,6 +23,6 @@ services:
     environment:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONUNBUFFERED=1
-      - TAVILY_API_KEY=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
-      - OPENAI_API_KEY=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
+      - TAVILY_API_KEY=
+      - OPENAI_API_KEY=
       - OPENAI_BASE_URL=https://integrate.api.nvidia.com/v1

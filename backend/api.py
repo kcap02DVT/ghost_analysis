@@ -55,8 +55,8 @@ app.add_middleware(
 )
 
 # Configuration LinkedIn
-EMAIL = "hackathonscrap2025@gmail.com"
-PASSWORD = "Hackathon_2025"
+EMAIL = ""
+PASSWORD = ""
 
 # Création du dossier pour stocker les fichiers uploadés
 UPLOAD_DIR = Path("uploaded_files")
@@ -103,9 +103,9 @@ class CompanyAnalysisResponse(BaseModel):
     rag_context: Optional[str] = None
 
 # Configuration des clés API
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ["TAVILY_API_KEY"] = ""
 llm = ChatOpenAI(
-    openai_api_key="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",
+    openai_api_key="",
     base_url="https://integrate.api.nvidia.com/v1",
     model="mistralai/mistral-small-24b-instruct",
     temperature=0.3,

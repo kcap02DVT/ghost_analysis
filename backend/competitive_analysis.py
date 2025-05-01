@@ -17,8 +17,8 @@ from langchain.chains import RetrievalQA
 import openai
 
 # --- Clés API ---
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "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")
-NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "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")
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
+NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "")
 
 class NVIDIAEmbeddings(Embeddings):
     def __init__(
