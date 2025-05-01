@@ -38,7 +38,7 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
         formData.append('file', file);
       }
 
-      const response = await fetch('https://api-hackaton-123787782603.europe-west9.run.app//analyze', {
+      const response = await fetch('https://api-hackaton-123787782603.europe-west9.run.app/analyze', {
         method: 'POST',
         body: formData,
       });
