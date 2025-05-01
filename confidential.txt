@@ -1,0 +1,94 @@
+Analyse Stratégique de Maiia
+
+Vision:
+Notre vocation est d’aider les professionnels de santé à se concentrer sur le soin de leurs patients, de fluidifier le parcours de soins et d’améliorer l’accès à la santé pour tous.
+
+Valeurs:
+- Initiative & Exigence : encourager la prise d’initiative et le maintien de standards élevés auprès de chaque collaborateur.
+- Enthousiasme & Collaboration : co-construire avec les praticiens pour répondre au plus près de leurs besoins terrain.
+- Interopérabilité & Sécurité : garantir des échanges fluides et la protection des données de santé (HDS, ISO 27001).
+
+Mission:
+Apporter aux professionnels de santé un accès facilité à l’expertise dans les situations médicales complexes tout en rendant les patients acteurs de leur parcours de soins.
+
+Culture:
+Une culture d’innovation continue, fondée sur la co-construction avec le terrain, la rigueur réglementaire et un fort esprit d’équipe pour accélérer la digitalisation du cabinet médical.
+
+Secteur:
+Télémédecine & e-santé : Maiia opère en B2B2P (entreprises, professionnels de santé et patients) au sein du marché global de la télémédecine.
+
+Offre:
+- Prise de rendez-vous en ligne (Maiia Agenda)
+- Téléconsultation & Télésoin (Maiia Téléconsultation)
+- Télésécrétariat & Téléexpertise (Maiia Connect)
+- Coordination & messagerie instantanée
+- Gestion de cabinet (Maiia Gestion)
+- Services intégrés en officine (téléconsultation en pharmacie)
+
+Analyse SWOT:
+Forces:
+• Réseau étendu : 100 000 professionnels équipés, 16 millions de patients gérés par l’agenda Maiia.
+• Plateforme sécurisée, certifiée HDS et ISO 27001, conforme RGPD.
+• Recommandée par le Ministère des Solidarités et de la Santé pour la téléconsultation.
+
+Faiblesses:
+• Classement web inférieur à Doctolib : Maiia n° 7 vs Doctolib n° 1 dans la catégorie Santé – Autres.
+• Moindre notoriété grand public comparée aux leaders.
+• Innovation rapide peut générer des courbes d’apprentissage pour certains praticiens.
+
+Opportunités:
+• Croissance mondiale du marché de la télémédecine : 172,44 milliards USD en 2024, +13,9 % CAGR (2024-2029).
+• Adoption croissante en France : plus de 14 millions de téléconsultations en 2024, 30 % des consultations à distance.
+• Développement de services additionnels (IA, télésurveillance, partenariats mutuelles/employeurs).
+
+Menaces:
+• Concurrence forte : Qare, Doctolib, Livi, Hellocare, MesDocteurs, Medadom…
+• Risques réglementaires et évolutions du cadre de remboursement.
+• Vulnérabilité aux cyberattaques et enjeux de cybersécurité.
+
+Analyse PESTEL:
+Politique:
+- Recommandation et subventions gouvernementales pour la téléconsultation.
+- Remboursement à 70 % des actes à distance (100 % COVID-19) sous condition de parcours de soins.
+
+Économique:
+- Marché mondial de la télémédecine estimé à 172,44 milliards USD en 2024.
+- Pressions sur les coûts de santé, incitant à digitaliser.
+
+Socioculturel:
+- Acceptation accrue par les patients (téléconsultations multipliées par 10 entre 2019 et 2024).
+- Besoin d’accès aux soins dans les territoires sous-dotés.
+
+Technologique:
+- Intégration d’outils d’IA, messagerie sécurisée Maiia Connect.
+- Évolution rapide des standards web et mobile.
+
+Environnemental:
+- Réduction de l’empreinte carbone liée aux déplacements patients.
+
+Légal:
+- Obligations RGPD et hébergement HDS.
+- Sensibilisation aux risques de fuites et sanctions CNIL.
+
+Forces de Porter:
+• Rivalité concurrentielle : très élevée
+• Menace des nouveaux entrants : modérée
+• Pouvoir de négociation des fournisseurs : faible
+• Pouvoir de négociation des clients : élevé
+• Menace des produits de substitution : modérée
+
+Matrice BCG:
+Produit / Service ; Part de marché relative ; Taux de croissance du marché ; Catégorie
+Agenda en ligne (Maiia Agenda) ; Élevée ; Modéré ; Cash Cow
+Téléconsultation (Maiia Téléconsultation) ; Élevée ; Élevé ; Star
+Téléexpertise & messagerie (Maiia Connect) ; Moyenne ; Élevé ; Question Mark
+Gestion de cabinet (Maiia Gestion) ; Faible ; Modéré ; Dog
+
+7S de McKinsey:
+Strategy: Devenir la plateforme intégrée de référence pour la coordination et la téléprise en charge des soins.
+Structure: Filiale au sein de Cegedim Santé, équipes dédiées R&D, support et déploiement régional.
+Systems: Plateforme cloud HDS, workflows de téléconsultation, ERP pour support et facturation.
+Shared Values: Initiative, exigence, collaboration, sécurité, accessibilité.
+Style: Participatif et centré utilisateur.
+Staff: 150–200 collaborateurs spécialisés.
+Skills: Expertise en télémédecine, développement SaaS, conformité réglementaire, gestion de projets digitaux.
