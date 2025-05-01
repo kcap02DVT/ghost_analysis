@@ -74,7 +74,7 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col gap-2">
           <label htmlFor="file-upload" className="text-white/80">
-            Upload Document
+          Upload .txt Document 
           </label>
           <div className="relative">
             <input
