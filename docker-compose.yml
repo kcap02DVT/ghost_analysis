@@ -1,0 +1,28 @@
+services:
+  frontend:
+    build: .
+    container_name: frontend
+    ports:
+      - "8080:5173"
+    volumes:
+      - ./project:/app/frontend/projet
+    depends_on:
+      - backend
+
+
+
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - TAVILY_API_KEY=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
+      - OPENAI_API_KEY=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
+      - OPENAI_BASE_URL=https://integrate.api.nvidia.com/v1
