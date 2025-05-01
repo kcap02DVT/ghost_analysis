@@ -12,7 +12,7 @@ An autonomous agent capable of browsing the web (or a simulated database) to col
 - Competitor Analysis
 - Automated LinkedIn Analysis
 - Visualization Generation
-- PDF Document Support for RAG Analysis
+- Document (TXT for the moment, pdf and other type will be updated soon) Support for RAG Analysis
 
 ## Architecture
 
