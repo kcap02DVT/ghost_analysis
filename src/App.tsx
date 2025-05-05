@@ -47,7 +47,13 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-950 to-purple-900 text-white flex flex-col">
+    <div 
+    className="min-h-screen text-black flex flex-col"
+    style={{ 
+      background: 'linear-gradient(135deg, #eef2ff 0%, #faf5ff 50%, #fdf2f8 100%)' 
+    }}
+  >
+  
       <div className="container mx-auto px-4 py-16 flex-grow">
         <Header onAnalysisComplete={handleAnalysisComplete} />
         

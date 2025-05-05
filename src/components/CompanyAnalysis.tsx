@@ -38,7 +38,7 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
         formData.append('file', file);
       }
 
-      const response = await fetch('https://api-hackaton-123787782603.europe-west9.run.app/analyze', {
+      const response = await fetch('http://localhost:8000/analyze', {
         method: 'POST',
         body: formData,
       });
@@ -73,7 +73,7 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
     <div className="mt-8 space-y-6">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col gap-2">
-          <label htmlFor="file-upload" className="text-white/80">
+          <label htmlFor="file-upload" className="text-black/80">
           Upload .txt Document 
           </label>
           <div className="relative">
@@ -84,11 +84,11 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               accept=".txt"
             />
-            <div className="px-4 py-2 rounded-lg bg-white/10 text-white border border-white/20 flex items-center">
-              <span className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-4 text-sm font-semibold hover:bg-blue-600">
+            <div className="px-4 py-2 rounded-lg bg-white/10 text-black border border-white/20 flex items-center">
+              <span className="bg-blue-500 text-black px-4 py-2 rounded-lg mr-4 text-sm font-semibold hover:bg-blue-600">
                 Choose File
               </span>
-              <span className="text-gray-400">
+              <span className="text-black-400">
                 {file ? file.name : 'No file selected'}
               </span>
             </div>
@@ -101,12 +101,12 @@ const CompanyAnalysis: React.FC<CompanyAnalysisProps> = ({ isVisible, onAnalysis
             value={companyName}
             onChange={(e) => setCompanyName(e.target.value)}
             placeholder="Enter company name..."
-            className="flex-1 px-4 py-2 rounded-lg bg-white/10 text-white placeholder-gray-400 border border-white/20 focus:outline-none focus:border-blue-500"
+            className="flex-1 px-4 py-2 rounded-lg bg-white/10 text-black placeholder-black-400 border border-black focus:outline-none focus:border-blue-500"
           />
           <button
             type="submit"
             disabled={loading}
-            className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 disabled:opacity-50"
+            className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-black rounded-lg hover:from-blue-600 hover:to-blue-700 disabled:opacity-50"
           >
             {loading ? 'Analyzing...' : 'Analyze'}
           </button>

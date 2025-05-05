@@ -56,7 +56,7 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ service, isOpen, onClose, a
       
       {/* Modal */}
       <div 
-        className="bg-gradient-to-br from-gray-900 to-purple-950 rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-auto relative z-10 shadow-xl shadow-blue-900/20"
+        className="bg-purple-800/30 backdrop-blur-sm rounded-2xl w-full max-w-2xl max-h-[90vh] overflow-auto relative z-10 shadow-xl shadow-blue-900/20"
         style={{ 
           animation: isOpen ? 'modalFadeIn 0.3s ease-out forwards' : 'none',
         }}
@@ -64,14 +64,14 @@ const ServiceModal: React.FC<ServiceModalProps> = ({ service, isOpen, onClose, a
         {/* Close button */}
         <button 
           onClick={onClose}
-          className="absolute top-4 right-4 text-gray-400 hover:text-white p-1 rounded-full hover:bg-white/10 transition-colors"
+          className="absolute top-4 right-4 text-gray-400 hover:text-black p-1 rounded-full hover:bg-white/10 transition-colors"
         >
           <X size={20} />
         </button>
         
         {/* Content */}
         <div className="p-8">
-          <h2 className="text-2xl font-bold text-white mb-4">{service.title}</h2>
+          <h2 className="text-2xl font-bold text-black mb-4">{service.title}</h2>
           
           {/* Strategic Recommendations */}
           {isStrategyService && analysisResult && (
