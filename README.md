@@ -81,7 +81,7 @@ docker-compose ps
 
 5. Access the application:
 - Frontend: http://localhost:8080
-- Backend API: http://localhost:8080/analyze
+- Backend API: http://localhost:8000/analyze
 
 Use the `confidential.txt` file as input for the analysis. This file contains sample data that you can use to test the various analysis features.
 
